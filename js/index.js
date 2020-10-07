@@ -255,21 +255,3 @@ function descargar(url){
  }
 
 
-
-/* -------------------------
-    SETEAR ATRIBUTOS
---------------------------*/
-
-
-function setearAtributo(elemento, atributos) {
-  for(let i in atributos) {
-    elemento.setAttribute(key, atributos[i]);
-  }
-}
-
-/*
-setearAtributo(elem, {"src": "http://example.com/something.jpeg", "height": "100%", ...});
-
-*/
-
-//https://codepen.io/danyjavierb/pen/WNxeERp
