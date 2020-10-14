@@ -790,7 +790,7 @@ body {
 		}
 		
 		.descarga:hover,
-		.descarga_modal:hover {
+		#descarga_modal:hover {
 			background: var(--descarga-hover) no-repeat;
 		}
 		
